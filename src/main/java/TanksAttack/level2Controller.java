@@ -285,9 +285,15 @@ public class level2Controller {
                 if (imageView.getBoundsInParent().intersects((imageView1.getBoundsInParent()))) {
                     imageView1.setLayoutX(randomX());
                     imageView1.setLayoutY(randomY());
-                    while (checkEnemyCollision(imageView1)) {
+                    
+                  
+                    	
+                    	while(checkEnemyCollision(imageView1)) {
+                    	
+                    	
                         imageView1.setLayoutX(randomX());
                         imageView1.setLayoutY(randomY());
+                    
                     }
                     scene.getChildren().remove(imageView);
                     bullets.remove(imageView);

@@ -1,5 +1,5 @@
 package TanksAttack;
 
 public class PlayerData {
-    public static int points = 1000;
+    public static int points = 4000;
 }
