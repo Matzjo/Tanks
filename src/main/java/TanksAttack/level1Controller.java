@@ -56,7 +56,7 @@ public class level1Controller {
 
 	private Image brickImage = new Image("TanksAttack/Brick.png");
 	private Image waterImage = new Image("TanksAttack/Water.png");
-	private Image metalImage = new Image("TanksAttack/Metal_Plate.png");
+	
 
 	private ArrayList<ImageView> blocks = new ArrayList<>();
 	private ArrayList<ImageView> bricks = new ArrayList<>();

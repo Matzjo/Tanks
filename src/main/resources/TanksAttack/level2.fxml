@@ -5,17 +5,21 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #dbd3ba;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TanksAttack.level2Controller">
     <children>
+      <Pane fx:id="emptyPane" layoutX="250.0" layoutY="100.0" prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <ImageView fx:id="tank" fitHeight="48.0" fitWidth="48.0" layoutX="200.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tank.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
       <Button layoutX="14.0" layoutY="-40.0" mnemonicParsing="false" text="Button" />
-      <ImageView fx:id="tank" fitHeight="48.0" fitWidth="48.0" layoutX="450.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@tank.png" />
-         </image>
-      </ImageView>
       <ImageView fx:id="image30" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />

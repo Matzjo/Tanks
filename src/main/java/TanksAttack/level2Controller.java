@@ -12,6 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 
@@ -23,6 +24,9 @@ public class level2Controller {
 
     @FXML
     private AnchorPane scene;
+    
+    @FXML
+    private Pane emptyPane;
 
     @FXML
     private Label allPointsLabel, runPointsLabel;
@@ -59,10 +63,11 @@ public class level2Controller {
 
     private BooleanBinding keyPressed = wPressed.or(aPressed).or(sPressed).or(dPressed).or(lPressed);
 
-    
+    private Image brickImage = new Image("TanksAttack/Brick.png");
     private Image waterImage = new Image("TanksAttack/Water.png");
     private Image metalImage = new Image("TanksAttack/Metal_Plate.png");
 
+    private ArrayList<ImageView> unassignedBlocks = new ArrayList<>();
     private ArrayList<ImageView> blocks = new ArrayList<>();
     private ArrayList<ImageView> bricks = new ArrayList<>();
     private ArrayList<ImageView> bullets = new ArrayList<>();
@@ -258,6 +263,7 @@ public class level2Controller {
         }
     };
 
+   
 
     private void checkBlockBulletCollision(ArrayList<ImageView> bullets) {
         for (ImageView imageView : bullets) {
@@ -285,15 +291,9 @@ public class level2Controller {
                 if (imageView.getBoundsInParent().intersects((imageView1.getBoundsInParent()))) {
                     imageView1.setLayoutX(randomX());
                     imageView1.setLayoutY(randomY());
-                    
-                  
-                    	
-                    	while(checkEnemyCollision(imageView1)) {
-                    	
-                    	
+                    while (checkEnemyCollision(imageView1)) {
                         imageView1.setLayoutX(randomX());
                         imageView1.setLayoutY(randomY());
-                    
                     }
                     scene.getChildren().remove(imageView);
                     bullets.remove(imageView);
@@ -493,6 +493,8 @@ public class level2Controller {
             return true;
         if (enemyTank.getLayoutX() + enemyTank.getFitWidth() > scene.getPrefWidth())
             return true;
+        if (enemyTank.getBoundsInParent().intersects(emptyPane.getBoundsInParent()))
+            return true;
         ArrayList<ImageView> temp = new ArrayList<>(enemyTanks);
         temp.remove(enemyTank);
         for (ImageView imageView1 : temp) {
@@ -554,10 +556,10 @@ public class level2Controller {
     });
 
 
-//     Map Generation
+//    Random Map Generation
 
     private void generateMap() {
-        fillEnemyTanks();
+    	fillEnemyTanks();
         level1Controller.setWater(image1, image2, image3, image4, blocks, waterImage);
         level1Controller.setWater(image5, image6, image7, image8, blocks, waterImage);
         level1Controller.setWater(image9, image10, image11, image12, blocks, waterImage);
@@ -598,18 +600,17 @@ public class level2Controller {
         image113.setImage(waterImage);
         image114.setImage(waterImage);
         image115.setImage(waterImage);
+        
     }
-
-	
-
-
-	private void fillEnemyTanks() {
+    
+    private void fillEnemyTanks() {
         enemyTanks.add(enemyTank1);
         enemyTanks.add(enemyTank2);
         enemyTanks.add(enemyTank3);
         enemyTanks.add(enemyTank4);
         enemyTanks.add(enemyTank5);
     }
-    
+
+ 
 
 }
