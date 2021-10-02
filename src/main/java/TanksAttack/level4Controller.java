@@ -44,7 +44,9 @@ public class level4Controller {
 			image85, image86, image87, image88, image89, image90, image91, image92, image93, image94, image95, image96,
 			image97, image98, image99, image100, image101, image102, image103, image104, image105, image106, image107,
 			image108, image109, image110, image111, image112, image113, image114, image115, image116, image117,
-			image118, image119, image120, image121, image122, image123, image124, image125, image126;
+			image118, image119, image120, image121, image122, image123, image124, image125, image126, image127, image128,
+			image129,image130, image131, image132, image133, image134, image135, image136, image137, image138, image139,
+			image140, image141, image142;
 
 
 	private BooleanProperty wPressed = new SimpleBooleanProperty();
@@ -553,21 +555,22 @@ public class level4Controller {
 		setMetal(image1, image2, image3, image4, image5, image6, image7, image8, image9, image10);
 		setMetal(image11, image12, image13, image14, image15, image16, image17, image18, image19, image20);
 		setMetal(image21, image22, image23, image24, image25, image26, image27, image28, image29, image30);
-		setMetal( image33, image36, image37, image38, image39, image40, image107, image108, image109, image110);
+		setMetal(image33, image36, image37, image38, image39, image40, image107, image108, image109, image110);
 		setMetal(image41, image42, image43, image44, image45, image46, image47, image48, image49, image50);
 		setMetal(image51, image54, image55, image56, image57, image58, image59, image60, image105, image106);
 		setMetal(image61, image62, image64, image65, image66, image67, image68, image69, image70, image104);
 		setMetal(image71, image72, image73, image74, image75, image76, image77, image78, image79, image103);
 		setMetal(image82, image83, image84, image85, image86, image87, image88, image89, image90, image102);
 		setMetal(image91, image92, image93, image94, image95,  image97, image98, image99, image100,image101);
-		
-		blocks.add(image121);
-		blocks.add(image122);
-		blocks.add(image123);
-		blocks.add(image124);
+		setMetal(image127, image128, image129, image130, image131, image132, image133, image134, image135, image136);
+		setMetal(image137, image138, image139, image140, image141, image142, image121, image122, image123, image124);
 		blocks.add(image125);
 		blocks.add(image126);
-		
+		blocks.add(image112);
+		blocks.add(image113);
+		blocks.add(image118);
+		blocks.add(image119);
+		blocks.add(image120);
 	}
 
 	private void fillEnemyTanks() {

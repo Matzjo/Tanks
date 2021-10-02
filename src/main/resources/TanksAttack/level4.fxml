@@ -191,7 +191,7 @@
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image111" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image127" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
@@ -476,37 +476,37 @@
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image115" fitHeight="50.0" fitWidth="50.0" layoutX="200.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image131" fitHeight="50.0" fitWidth="50.0" layoutX="200.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image116" fitHeight="50.0" fitWidth="50.0" layoutX="250.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image132" fitHeight="50.0" fitWidth="50.0" layoutX="250.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image114" fitHeight="50.0" fitWidth="50.0" layoutX="150.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image130" fitHeight="50.0" fitWidth="50.0" layoutX="150.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image113" fitHeight="50.0" fitWidth="50.0" layoutX="100.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image127" fitHeight="50.0" fitWidth="50.0" layoutX="100.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image112" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image126" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image111" fitHeight="50.0" fitWidth="50.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image125" fitHeight="50.0" fitWidth="50.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image140" fitHeight="50.0" fitWidth="50.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image111" fitHeight="50.0" fitWidth="50.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
@@ -551,52 +551,52 @@
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image126" fitHeight="50.0" fitWidth="50.0" layoutX="950.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image142" fitHeight="50.0" fitWidth="50.0" layoutX="950.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image125" fitHeight="50.0" fitWidth="50.0" layoutX="900.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image141" fitHeight="50.0" fitWidth="50.0" layoutX="900.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image124" fitHeight="50.0" fitWidth="50.0" layoutX="800.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image140" fitHeight="50.0" fitWidth="50.0" layoutX="800.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image123" fitHeight="50.0" fitWidth="50.0" layoutX="750.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image139" fitHeight="50.0" fitWidth="50.0" layoutX="750.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image122" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image138" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image121" fitHeight="50.0" fitWidth="50.0" layoutX="650.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image137" fitHeight="50.0" fitWidth="50.0" layoutX="650.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image120" fitHeight="50.0" fitWidth="50.0" layoutX="600.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image136" fitHeight="50.0" fitWidth="50.0" layoutX="600.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image119" fitHeight="50.0" fitWidth="50.0" layoutX="550.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image135" fitHeight="50.0" fitWidth="50.0" layoutX="550.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image118" fitHeight="50.0" fitWidth="50.0" layoutX="500.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image134" fitHeight="50.0" fitWidth="50.0" layoutX="500.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image117" fitHeight="50.0" fitWidth="50.0" layoutX="450.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image133" fitHeight="50.0" fitWidth="50.0" layoutX="450.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
@@ -651,7 +651,7 @@
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image161" fitHeight="50.0" fitWidth="50.0" layoutX="950.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image129" fitHeight="50.0" fitWidth="50.0" layoutX="950.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
