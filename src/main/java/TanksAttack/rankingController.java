@@ -1,9 +1,11 @@
 package TanksAttack;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -12,6 +14,9 @@ public class rankingController {
     @FXML
 
     Label ranking;
+    
+    @FXML
+    Button back;
 
     public void initialize() throws SQLException, ClassNotFoundException {
         ranking();
@@ -33,6 +38,13 @@ public class rankingController {
 
         ranking.setText(info);
         
+    }
+    
+    @FXML
+    
+    private void backToLevelSelection() throws IOException {
+    	
+    	App.setRoot("levelSelection");
     }
 
 
