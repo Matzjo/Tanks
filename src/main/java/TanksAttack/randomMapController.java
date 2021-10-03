@@ -266,8 +266,6 @@ public class randomMapController {
         }
     };
 
-   
-
     private void checkBlockBulletCollision(ArrayList<ImageView> bullets) {
         for (ImageView imageView : bullets) {
             for (ImageView imageView1 : blocks) {

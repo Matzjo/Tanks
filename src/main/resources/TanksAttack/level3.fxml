@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #dbd3ba;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TanksAttack.level3Controller">
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #dbd3ba;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TanksAttack.level3Controller">
     <children>
       <Button layoutX="14.0" layoutY="-40.0" mnemonicParsing="false" text="Button" />
       <ImageView fx:id="tank" fitHeight="48.0" fitWidth="48.0" layoutX="500.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
@@ -566,12 +566,12 @@
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image190" fitHeight="50.0" fitWidth="50.0" layoutX="750.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image190" fitHeight="50.0" fitWidth="50.0" layoutX="750.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image180" fitHeight="50.0" fitWidth="50.0" layoutX="250.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image180" fitHeight="50.0" fitWidth="50.0" layoutX="250.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>
@@ -941,7 +941,7 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <ImageView fx:id="image83" fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image83" fitHeight="50.0" fitWidth="50.0" layoutX="300.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Metal_Plate.png" />
          </image>

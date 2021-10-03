@@ -1,18 +1,16 @@
 package TanksAttack;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.Tooltip;
+import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class LevelSelectionController {
 
     @FXML
-    Button button1, button2, button3, button4, buttonRandom;
+    Button button1, button2, button3, button4, buttonRandom, buttonRanking;
 
     @FXML
     Pane pane2, pane3, pane4;
@@ -95,6 +93,10 @@ public class LevelSelectionController {
         App.setRoot("randomMap");
         App.resizeBig();
     }
+    
+    public void ranking() throws IOException {
+    	App.setRoot("ranking");
+    }
 
     private void difficultyEasy() {
         difficultyLane1.setText("Easy Difficulty:");
@@ -134,5 +136,16 @@ public class LevelSelectionController {
         GameData.movementVariable = 0.5;
         GameData.enemyMovementVariable = 1.9;
         GameData.enemyShootCooldown = 500;
+    }
+
+    @FXML
+    private void saveToDB() throws SQLException, ClassNotFoundException {
+        DatabaseConnection.saveToDB();
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle(null);
+        alert.setHeaderText("SAVED!");
+        alert.setResizable(false);
+        alert.setContentText(null);
+        alert.show();
     }
 }
